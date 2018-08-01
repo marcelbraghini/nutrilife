@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nutrilife</string>
+    <string name="title_activity_main">Nutrilife</string>
+
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Fechar navigation drawer</string>
+
+    <string name="action_settings">Logout</string>
+
+    <string name="WebServerPessoa">http://192.168.0.103/nutrilife/mostrarPessoa.php</string>
+    <string name="WebServerDieta">http://192.168.0.103/nutrilife/mostrarDieta.php</string>
+    <string name="WebServerDica">http://192.168.0.103/nutrilife/mostrarDica.php</string>
+    <string name="WebServerNutricionista">http://192.168.0.103/nutrilife/mostrarNutricionista.php</string>
+</resources>

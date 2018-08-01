@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+        android:id="@+id/ListaDieta"
+        android:layout_gravity="center"
+        android:backgroundTint="#c51c1c"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Data"
+        android:id="@+id/textView5"
+        android:layout_gravity="left|top"
+        android:textColor="#6a933f"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Hora"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="#6a933f"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Dieta"
+        android:id="@+id/textView11"
+        android:layout_gravity="right|top"
+        android:textColor="#6a933f"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Refeição"
+        android:id="@+id/textView12"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#6a933f"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Quant./Porção"
+        android:id="@+id/textView13"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="30dp"
+        android:textColor="#6a933f"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Alimento"
+        android:id="@+id/textView16"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#6a933f"
+        android:textSize="18dp" />
+
+</FrameLayout>

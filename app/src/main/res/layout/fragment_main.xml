@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Olá!"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="30dp"
+        android:textSize="45dp"
+        android:textColor="#6a933f"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Seja bem vindo ao "
+        android:id="@+id/textView14"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="120dp"
+        android:textColor="#6a933f"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="protótipo Nutrilife!"
+        android:id="@+id/textView15"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="145dp"
+        android:textColor="#6a933f"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Texto"
+        android:id="@+id/txtTexto"
+        android:layout_marginTop="-10dp"
+        android:textColor="#6a933f"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Texto2"
+        android:id="@+id/txtTexto2"
+        android:textColor="#6a933f"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="180dp"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:layout_width="162dp"
+        android:layout_height="153dp"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/icone" />
+</FrameLayout>
